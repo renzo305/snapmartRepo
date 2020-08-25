@@ -10,7 +10,7 @@ class Keywords:
     def setUp(self):
         self.options = webdriver.ChromeOptions()
         self.options.add_argument("--incognito")
-        self.driver = webdriver.Chrome(executable_path="D:\Chromedriver\chromedriver.exe", options=self.options)
+        self.driver = webdriver.Chrome(executable_path=".\Chromedriver\chromedriver.exe", options=self.options)
 
 
     def inputText(self, fieldXpath, fieldValue = ""):
